@@ -52,6 +52,15 @@ h1 a {
     font-size: 1.2rem;
 }
 
+.menu-header ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+
+.menu-header ul li a {
+    text-decoration: none;
+}
 /* fin de header */
 
 
@@ -61,6 +70,24 @@ h1 a {
 /* donner un chemin le plus précis possible */
 .menu-menu-pied-de-page-container ul li {
     list-style: none;
+    display: inline;
+    margin-right: 5%;
+    /* propriété pour modifier le comportement de type bloc des <li>, en comportement inline, pour afficher les liens à l'horizontal */
+    /* les li par défaut sont en block on change le comportement de l'affichage en inline */
 }
+
+/* pour afficher à l'horizontale */
+/*  .menu {
+    display: flex;
+ } */
+
+
+/* ce  n'est pas le li qui a généré le soulignement mais le a donc chemin le plus précis */
+.menu-menu-pied-de-page-container ul li a {
+    text-decoration: none;  
+}
+
+
+
 
 /* fin du footer */
