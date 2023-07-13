@@ -1,0 +1,43 @@
+// initiation à la condition ternaire
+
+//  syntaxe de condition classique
+
+// if (1 < 2) {
+//     echo "C'est vrai";
+// } else {
+//     echo "C'est faux";
+// }
+
+//  la même condition, avec une syntaxe ternaire
+
+// (1 < 2) ? "C'est vrai" : "C'est faux";
+
+
+
+
+
+
+$couleur = "Bleu";
+
+switch($couleur){
+    case 'Vert':
+        echo "C'est bien la couleur Vert";
+        break;
+    case 'Bleu':
+        echo "C'est bien la couleur Bleu <br>";
+        break;
+    default:
+    echo "Aucune couleur ne correspond";
+    break;
+}
+
+// elseif équivalent à la switch du dessus
+if($couleur == 'Vert'){
+    echo "C'est bien la couleur Vert";
+}elseif($couleur == 'Bleu'){
+    echo "C'est bien la couleur Bleu <br>";
+}else{
+    echo "Aucune couleur ne correspond";
+}
+
+si il y a trop de if - elseif il vaut mieux passer sur une switch case

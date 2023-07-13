@@ -1,0 +1,66 @@
+/* 
+Theme Name: Tech Store
+Author: Gloria
+Description: Thème Tech Store, réalisé From Scratch
+Version: 1.0
+Text Domain: techstore
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@100;400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+background-color: floralwhite;
+font-family: 'Lato', sans-serif;
+}
+
+/* pour supprimer les puces de tous les widgets générés */
+li.widget {
+    list-style: none;
+    
+ }
+
+ figure.wp-block-image {
+    margin-bottom: 0px;
+ }
+
+/* debut de header */
+
+h1 a {
+    text-decoration: none;
+}
+.vert {
+    background-color: rgb(108, 224, 108);
+    min-height: 50px;
+    
+}
+.jaune {
+    background-color: rgb(240, 240, 126);
+    min-height: 50px;
+    
+}
+.rouge {
+    background-color: rgb(233, 114, 114);
+    min-height: 50px;
+}
+
+/* pour séparer l'icone telephone avec le numero a côté */
+.icon-phone {
+    margin-right: .8rem;
+}
+
+.numero-phone {
+    font-size: 1.2rem;
+}
+
+/* fin de header */
+
+
+
+/* début du footer */
+
+/* donner un chemin le plus précis possible */
+.menu-menu-pied-de-page-container ul li {
+    list-style: none;
+}
+
+/* fin du footer */
